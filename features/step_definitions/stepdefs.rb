@@ -1,6 +1,10 @@
 module FridayStepHelper
   def is_it_friday(day)
-    'Nope'
+    if day == 'Friday'
+      'TGIF'
+    else
+      'Nope'
+    end
   end
 end
 World FridayStepHelper
